@@ -1,0 +1,23 @@
+.main-container{
+    padding: 150px 0 150px 0;   
+}
+
+.header{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #006080;
+    color: white;
+    padding: 20px 0;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+
+.container{
+    max-width: 800px;
+}
+
+.list{
+    padding: 0;
+    list-style-type: none;
+}

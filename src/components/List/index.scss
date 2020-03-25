@@ -1,0 +1,50 @@
+.list {
+    list-style-type: none;
+    padding: 0;
+
+    &__item{
+        display:flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 10px 10px 10px 0;
+        border-bottom: 1px solid #ebebeb;
+        
+        input{
+            font-size: 20px;
+            line-height: 40px;
+            width: 100%;
+            border:none;
+            outline:none;
+            padding: 0 0 0 10px;
+            margin: 0 10px;
+
+            &:focus{
+                outline: 1px solid #ebebeb;
+            }
+        }
+
+        span{
+            cursor: pointer;
+            color: gray;
+        }
+    }
+}
+
+.list-checkbox{
+    width: 25px;
+    height: 25px;
+    border: 1px solid gray;
+    border-radius: 50%;
+    cursor: pointer;
+    font-size: 0;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2px 0 0 0;
+    transition: all .1s ease;
+    
+    &:hover{
+        font-size: 12px;
+        background-color: #ebebeb;
+    }
+}
