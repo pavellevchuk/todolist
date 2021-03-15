@@ -1,0 +1,18 @@
+.input-field{
+    display:flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin: 0 0 10px 0;
+
+    input{
+        height: 40px;
+        line-height: 40px;
+        border: 1px solid #ebebeb;
+        outline: none;
+        padding: 0 10px;
+        font-size: 20px;
+    }
+    &__label{
+        font-size: 20px;
+    }
+}
